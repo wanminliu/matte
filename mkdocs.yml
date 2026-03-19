@@ -1,18 +1,40 @@
 site_name: Math is Fun!
 site_author: Wanmin Liu
+site_url: https://wanminliu.github.io/matte/
 
 theme:
   name: material
-  language: sv # Svenska
+  language: zh
+  palette:
+    # 设置主色调为深青色 (Teal)，非常接近 Cayman 的风格
+    - primary: teal
+      accent: teal
   features:
-    - navigation.tabs # 开启顶部导航栏
+    - navigation.tabs # 顶部横向导航
+    - navigation.sections
+    - search.suggest
+    - search.highlight
 
-# 开启 Markdown 扩展支持数学公式
+# 对应你之前的 Google Analytics 配置
+extra:
+  analytics:
+    provider: google
+    property: G-BKHMZBJJZ1
+
+# 保持 LaTeX 数学公式支持
 markdown_extensions:
   - pymdownx.arithmatex:
       generic: true
+  - pymdownx.highlight:
+      anchor_linenums: true
+  - pymdownx.inlinehilite
+  - pymdownx.snippets
+  - admonition
+  - footnotes
 
-# 引入 MathJax 渲染脚本
 extra_javascript:
   - javascripts/mathjax.js
   - https://cdnjs.cloudflare.com/ajax/libs/mathjax/3.2.2/es5/tex-mml-chtml.js
+
+extra_css:
+  - stylesheets/extra.css
