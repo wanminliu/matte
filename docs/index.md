@@ -1,39 +1,125 @@
-# Welcome to MkDocs
+Back to [**homepage**](https://wanminliu.github.io)
 
-For full documentation visit [mkdocs.org](https://www.mkdocs.org).
+Back to [**Teaching page in University**](https://wanminliu.github.io/KTH/)
 
-## Commands
+------
 
-* `mkdocs new [dir-name]` - Create a new project.
-* `mkdocs serve` - Start the live-reloading docs server.
-* `mkdocs build` - Build the documentation site.
-* `mkdocs -h` - Print help message and exit.
+_Detta är min hemsida för undervisning på gymnasiet._
 
-## Project layout
+Jag är matematiklärare baserad i Sverige, med en doktorsexamen i matematik och gymnasielärarlegitimation. Jag brinner för att överbrygga klyftan mellan matematisk teori på högre nivå och tillgänglig och engagerande utbildning.
 
-    mkdocs.yml    # The configuration file.
-    docs/
-        index.md  # The documentation homepage.
-        ...       # Other markdown pages, images and other files.
 
-# 欢迎来到高中数学互动课堂
 
-这是一个基于 Markdown 构建的教学网页，支持完美的排版与互动。
+<div style="display: grid; grid-template-columns: auto 1fr; align-items: center;">
+    <img src="https://wanminliu.github.io/gymnasium/Math_is_Fun_Shiing-Shen_Chern.jpg" alt="Math is fun" style="width:102px;height:187px;">    
+     <span style="position: relative; left: 30px;"><q><B>數學好玩</B></q> <a href="https://zh.wikipedia.org/wiki/%E9%99%88%E7%9C%81%E8%BA%AB"><em>陳省身</em></a> 二〇〇二 七卅 <br> 
+<q><B>Math is fun</B></q> <a href="https://en.wikipedia.org/wiki/Shiing-Shen_Chern"><em>Shiing-Shen Chern</em></a> 20020730 <br> </span> 
+</div>
 
-## 1. 核心公式展示
 
-在这里，我们可以轻松插入行内公式，例如一元二次方程的求根公式为 $\frac{-b \pm \sqrt{b^2 - 4ac}}{2a}$。
 
-或者展示独立的块级公式，例如正态分布的概率密度函数：
 
-$$
-f(x) = \frac{1}{\sigma\sqrt{2\pi}} e^{-\frac{1}{2}\left(\frac{x-\mu}{\sigma}\right)^2}
-$$
+## Undervisning i matematik i gymnasieskolan
 
-## 2. 互动几何：动态函数图像
+>_Ett särskilt tack till Kambiz Kafi för att han inspirerat mig i gymnasieundervisningen!_
 
-下面我们通过 GeoGebra 嵌入了一个动态的三维坐标系，您可以直接在网页上拖动和旋转它：
 
-<iframe scrolling="no" title="Tredimensionellt koordinatsystem" src="https://www.geogebra.org/material/iframe/id/azp3xktm/width/1000/height/600/border/888888/sfsb/true/smb/false/stb/false/stbh/false/ai/false/asb/false/sri/false/rc/false/ld/false/sdz/true/ctl/false" width="1000px" height="600px" style="border:0px;"> </iframe>
 
-> **提示：** 您只需在 GeoGebra 网页版上点击“分享 -> 嵌入”，就能获取并替换上面的 `<iframe>` 代码。
+#### Sep – Nov 2025, [Anna Whitlocks gymnasium](https://annawhitlocksgymnasium.stockholm/), Stockholm
+
+* Matematik 1B.
+* Matematik 3C.
+* Matematik 5 (två vikarierande lektioner).
+
+#### Mars – Maj 2025, [Ekens skola, 7–9](https://grundskola.stockholm/hitta-grundskola/grundskola/ekens-skola), Stockholm
+
+* Matematik, årskurs 7 och 8, på olika nivå.
+
+#### [Kleindagarna Juni 2024](https://www.mittag-leffler.se/activities/kleindagarna-ii/) 
+* [Om Kleindagarna](https://www.kleindagarna.se/)
+
+#### Mars – maj 2024, [Kärrtorps gymnasium](https://karrtorpsgymnasium.stockholm/), Stockholm
+
+* Matematik 1A
+* Matematik 1B
+* Matematik 3C (till en elev)
+* Matematik 5 (en vikarierande lektion)
+
+#### Undervisningsartiklar 
+  - Wanmin Liu, [Utforskande och heuristiskt lärande i algebra på gymnasiet](https://urn.kb.se/resolve?urn=urn:nbn:se:su:diva-252970), [PDF](https://www.diva-portal.org/smash/get/diva2:2042679/FULLTEXT01.pdf), 3 mars 2026.
+  - Wanmin Liu, [Gruppregler för att lösa uppgifter på tavlan](https://wanminliu.github.io/gymnasium/Gruppregler.pdf), 10 okt 2025.
+  - Wanmin Liu, [Areaformel för regelbunden femhörning -- ett elementärt bevis](https://wanminliu.github.io/gymnasium/PythagorasArea.html), 13 feb 2025.
+  - Wanmin Liu, [ODE, SageMath and General AI -- An Example from High School Teaching](https://wanminliu.github.io/gymnasium/ODE_SageMath_AI.html), June 2024.
+  - Wanmin Liu, [Pythagoras sats](https://wanminliu.github.io/gymnasium/Pythagoras_sats.html), 10 feb 2024.
+
+
+#### Affischer
+  - Wanmin Liu, Affisch på π-dagen 2026: [Pi-dagen](https://wanminliu.github.io/gymnasium/Pi-dagen2026.html), mar 2026.
+  - Wanmin Liu, Affisch på π-dagen 2025: [Pi-dagen](https://wanminliu.github.io/gymnasium/Pi-dagen2025.html), mar 2025.
+  - Kambiz Kafi, Wanmin Liu, Affisch på π-dagen 2024: [Pi-dagen](https://wanminliu.github.io/gymnasium/Pi-dagen.html), mar 2024.
+
+
+#### Undervisningsanteckningar
+
+* Matematik 1
+  - [Vad är summan av de första n positiva udda talen II](https://wanminliu.github.io/gymnasium/Ma1b_summan_udda_talen2.pdf), 24 nov 2025.  [Blogg](https://wanminliu.wordpress.com/2025/11/24/vad-ar-summan-av-de-forsta-n-positiva-udda-talen-ii/)
+  - [Linjensekvationblad, Ma1b](https://wanminliu.github.io/gymnasium/Ma1b_linjensekvationblad.pdf), 20 nov 2025. 
+  - [Linjens ekvation, Ma1b](https://wanminliu.github.io/gymnasium/Ma1b_linjensekvation.pdf), 14 nov 2025. 
+  - [Koordinatsystem, Ma1b](https://wanminliu.github.io/gymnasium/Ma1b_koordinatsystem.pdf), 6 nov 2025. [Koordinater blad, Ma1b](https://wanminliu.github.io/gymnasium/Ma1b_koordinaterblad.pdf)
+   - [Avstämning 1 - Potens och Algebra](https://wanminliu.github.io/gymnasium/Ma1b-potens-algebra_HT25.pdf), 17 okt 2025. 
+  - [Problemlösning, Ma1b](https://wanminliu.github.io/gymnasium/20251009Ma1b-Problem.pdf), 9 okt 2025. 
+  - [PEDMAS – hemlig kod för räkneordning](https://wanminliu.wordpress.com/2025/09/19/pedmas-hemlig-kod-for-rakneordning/), 19 sept 2025. 
+  - [Vad är summan av de första n positiva udda talen I](https://wanminliu.github.io/gymnasium/Ma1b_summan_udda_talen1.pdf), 16 sept 2025. [Blogg](https://wanminliu.wordpress.com/2025/09/19/vad-ar-summan-av-de-forsta-n-positiva-udda-talen/)
+  - [Grafer och funktioner](https://wanminliu.github.io/gymnasium/Funktioner.html), 3 maj 2024.
+  - [Förändringsfaktor och Index](https://wanminliu.github.io/gymnasium/FF.html), 25 apr 2024.
+
+
+
+* Matematik 2
+  - [Andragradsekvation, Ma2b](https://wanminliu.github.io/gymnasium/Ma2b_Andragradsekvation.pdf), 5 nov 2025. [Utdelningsblad till elev](https://wanminliu.github.io/gymnasium/Ma2b_AndragradsekvationElev.pdf).
+
+
+* Matematik 3
+  - [Trigonometri III, Ma3c](https://wanminliu.github.io/gymnasium/Ma3c_Trigonometri3.pdf), 24 och 27 nov 2025. 
+  - [Trigonometri II, Ma3c](https://wanminliu.github.io/gymnasium/Ma3c_Trigonometri2.pdf), 24 och 27 nov 2025. 
+  - [Trigonometri I, Ma3c](https://wanminliu.github.io/gymnasium/Ma3c_Trigonometri.pdf), 20 nov 2025. [Enhetscirkeln blad, Ma3c](https://wanminliu.github.io/gymnasium/Ma3c_Enhetscirkelnblad.pdf)
+  - [Extremvärdesproblem, Ma3c](https://wanminliu.github.io/gymnasium/Ma3c_Extremproblem.pdf), 23 okt 2025. [Utdelningsblad till elev](https://wanminliu.github.io/gymnasium/Ma3c_ExtremproblemE.pdf). 
+  - [Tillämpningar av derivatan](https://wanminliu.github.io/gymnasium/Derivatan_P.pdf), 6 okt 2025. [Utdelningsblad till elev](https://wanminliu.github.io/gymnasium/Derivatan2Elev.pdf) och [Anteckningar](https://wanminliu.github.io/gymnasium/Derivatan_F.pdf)
+  - [Exponentialfunktioner och deras derivator](https://wanminliu.github.io/gymnasium/Exp.pdf), 2 okt 2025. [Utdelningsblad till elev](https://wanminliu.github.io/gymnasium/ExpElev.pdf) och [Anteckningar](https://wanminliu.github.io/gymnasium/Exponentialfunktioner.pdf)
+  - [En intressant ekvation om rationella funktioner](https://wanminliu.wordpress.com/2025/09/24/en-intressant-ekvation-om-rationella-funktioner/), 2 okt 2025. 
+
+
+
+* Matematik 5
+  - [Talteori, Ma5](https://wanminliu.github.io/gymnasium/Ma5_talteori.pdf), 17 nov 2025. 
+
+
+* Matematik årskurs 7 och 8. 
+  - [Pythagoras sats](https://wanminliu.github.io/gymnasium/Pythagoras.pdf), 23 maj 2025.
+  - [Pythagoras sats: elevers affischer](https://wanminliu.wordpress.com/2025/06/16/pythagoras-sats/), 20 maj 2025.
+  - [Statistik och Sannolikhet Nivå A](https://wanminliu.github.io/gymnasium/ssa/Statistik_Sannolikhet_N4.html), 8 maj 2025.
+  - [Statistik och Sannolikhet: Kasta två tärningar](https://wanminliu.github.io/gymnasium/ssa/Statistik_Sannolikhet_N42.pdf), 8 maj 2025.
+  - [Statistik och Sannolikhet Nivå E](https://wanminliu.github.io/gymnasium/sse/Statistik_Sannolikhet_N1.html), 7 maj 2025.
+
+
+
+### [Undervisningsblogg](https://wanminliu.wordpress.com/category/teaching/)
+
+<a href="https://www.mathsisfun.com/">Math Is Fun - Maths Resources</a>
+
+<br/><br/>
+
+<img src="https://wanminliu.github.io//pic/karrtorpsgymnasium.jpg" alt="KTH" id="width:100%;height:auto;">
+
+<br/><br/>
+<p>Last update on {{ site.time | date_to_long_string }}.</p>
+
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-6X136VZ9Z5"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-6X136VZ9Z5');
+</script>
+

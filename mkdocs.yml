@@ -4,7 +4,7 @@ site_url: https://wanminliu.github.io/matte/
 
 theme:
   name: material
-  language: zh
+  language: sv
   palette:
     # 设置主色调为深青色 (Teal)，非常接近 Cayman 的风格
     - primary: teal
@@ -38,3 +38,15 @@ extra_javascript:
 
 extra_css:
   - stylesheets/extra.css
+
+nav:
+  - Hem: index.md  # 首页
+  - Matematik 1:
+      - Introduktion: matematik1/intro.md
+      - Algebra: matematik1/algebra.md
+      - Geometri: matematik1/geometri.md
+  - Matematik 2:
+      - Funktionslära: matematik2/funktioner.md
+      - Statistik: matematik2/statistik.md
+  - Interaktiva verktyg (GeoGebra): geogebra.md
+  - Om kursen: about.md
