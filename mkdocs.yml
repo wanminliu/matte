@@ -1,0 +1,18 @@
+site_name: Math is Fun!
+site_author: Wanmin Liu
+
+theme:
+  name: material
+  language: sv # Svenska
+  features:
+    - navigation.tabs # 开启顶部导航栏
+
+# 开启 Markdown 扩展支持数学公式
+markdown_extensions:
+  - pymdownx.arithmatex:
+      generic: true
+
+# 引入 MathJax 渲染脚本
+extra_javascript:
+  - javascripts/mathjax.js
+  - https://cdnjs.cloudflare.com/ajax/libs/mathjax/3.2.2/es5/tex-mml-chtml.js
