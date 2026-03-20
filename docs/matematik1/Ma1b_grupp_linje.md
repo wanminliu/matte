@@ -11,7 +11,7 @@ B. $(-2,\ 1)$ och $(1, \ -5)$.
 C. $(3,\ 7)$ och $(-2, \ -6)$.  
 D. $(-1,\ 5)$ och $(2, \ -7)$.  
 
-<img src="../img/Ma1b-koordinat1.png" style="width:70%">
+<img src="/matte/img/Ma1b-koordinat1.png" style="width:70%">
 
 ---
 
@@ -34,7 +34,7 @@ C. Vad är arean av triangeln $OAB$?
 
 #### 4. I ett koordinatsystem finns tre punkter som markeras i figuren. 
 
-<img src="../img/Ma1b-trepunkter.png" style="width:90%">
+<img src="/matte/img/Ma1b-trepunkter.png" style="width:90%">
 
 * Wilma anser att dessa tre punkter ligger på en rät linje.
 * Madeleine menar att punkterna inte alls liger på en rät linje utan att det bara är så det ser ut.
@@ -54,7 +54,7 @@ D. $4x-2y+3=0$.
 
 #### 6. Den linjära funktionen $y=5000-400x$ beskriver hur många meter Lina har kvar till mål när hon sprungit $x$ varv på en löparbana.
 
-<img src="../img/Ma1b-Lina.png" style="width:100%">
+<img src="/matte/img/Ma1b-Lina.png" style="width:100%">
 
 A. Vad är $k$- och $m$-värdet för linjen?  
 B. Rita grafen i koordinaten.  
