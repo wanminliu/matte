@@ -31,10 +31,13 @@ markdown_extensions:
   - pymdownx.snippets
   - admonition
   - footnotes
+  - tables
+  - md_in_html
+  
 
 extra_javascript:
   - javascripts/mathjax.js
-  - https://cdnjs.cloudflare.com/ajax/libs/mathjax/3.2.2/es5/tex-mml-chtml.js
+  - https://cdn.jsdelivr.net/npm/mathjax@4/tex-mml-chtml.js
 
 extra_css:
   - stylesheets/extra.css
