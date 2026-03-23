@@ -1,104 +1,160 @@
 ## Linjens ekvation
 
-Ma1b, 20251114
+Ma1b, 2025-11-14
 
 [Wanmin Liu](https://wanminliu.github.io/matte/)
 
 ---
 
+#### 1. Linjens ekvation i k-m-form
 
-#### 1. linjens ekvation i k-m-form.
 Vi skriver
-$$y=kx+m$$
-där $k$ är lutningen och $m$ är skärningen vädet på y-axlen.
+$$
+y = kx + m
+$$
+där $k$ är lutningen och $m$ är skärningsvärdet på $y$-axeln.
 
-#### 2. Att skriva ekvationen för linjen: från en punkt och luntning till linjens ekvation.
+---
+
+#### 2. Från en punkt och lutning till linjens ekvation
 
 **Anta** att vi vet en punkt $(x_1, y_1)$ och linjens lutning $k$.
 
-**Mål**: hitta $m$-värdet.
+**Mål:** hitta $m$-värdet.
 
-Vi sätter in $(x_1, y_1)$ i ekvationen $y=kx+m$ och löser ekvationen för att hitta $m$. Det vill säga, vi löser ekvationen för $m$
-$$y_1=kx_1+m.$$
+Vi sätter in $(x_1, y_1)$ i ekvationen
+$$
+y = kx + m
+$$
 
-Då har vi både $k$- och $m$-värden. Vi kan skriva linjeekvationen som
-$$y=kx+m.$$
+och får
+$$
+y_1 = kx_1 + m
+$$
 
-#### 3. Att skriva ekvationen för linjen: från två punkter till linjens ekvation.
+Vi löser denna ekvation för $m$.
 
-**Anta** att vi vet två punkter $(x_1, y_1)$ och $(x_2, y_2)$
+När vi har både $k$ och $m$ kan vi skriva linjens ekvation:
+$$
+y = kx + m
+$$
 
-**Mål 1**: hitta $k$-värdet.
+---
 
-Linjens lutning
-$$k=\frac{\Delta y}{\Delta x}=\frac{y_2-y_1}{x_2-x_1}.$$
+#### 3. Från två punkter till linjens ekvation
 
-**Mål 2**: hitta $m$-värdet.
-Nu är vi i fallet med att känna till lutningen och en punkt.
+**Anta** att vi vet två punkter $(x_1, y_1)$ och $(x_2, y_2)$.
 
-Vi sätter in $(x_1, y_1)$ i ekvationen $y=kx+m$ och löser ekvationen för att hitta $m$. Det vill säga, vi löser ekvationen för $m$
-$$y_1=kx_1+m.$$
+**Mål 1:** hitta lutningen $k$
 
-Vi får $$y=kx+m.$$
+$$
+k = \frac{\Delta y}{\Delta x} = \frac{y_2 - y_1}{x_2 - x_1}
+$$
 
+**Mål 2:** hitta $m$
+
+Sätt in $(x_1, y_1)$ i
+$$
+y = kx + m
+$$
+
+och lös
+$$
+y_1 = kx_1 + m
+$$
+
+---
 
 **Exempel 1.** En linje går genom punkterna $(2, 8)$ och $(5, 2)$. Hitta linjens ekvation.
-
 
 **Lösning.**
-_Steg 1._ Vi tar $P_1$ som $(2, 8)$ och $P_2$ som $(5, 2)$. Linjens lutning
-$$k=\frac{y_2-y_1}{x_2-x_1}=\frac{2-8}{5-2}=-2.$$
 
+_Steg 1._  
+$$
+k = \frac{2 - 8}{5 - 2} = -2
+$$
 
-_Steg 2._  Linjens ekvation är
-$$ y=-2x+m.$$
-Vi sätter in $(2, 8)$ i ekvation och får
-$$8=-2\cdot 2+m.$$
-Då blir $m=8+4=12$.
+_Steg 2._  
+$$
+y = -2x + m
+$$
 
-**Svar.** Linjens ekvation är
-$$y=-2x+12.$$
+Sätt in $(2, 8)$:
+$$
+8 = -2 \cdot 2 + m
+$$
 
-#### 4. Att skriva ekvationen för linjen: från två punkter till linjens ekvation, Metod2. 
+$$
+m = 12
+$$
 
-**Använd formelblad för lutningen.**
+**Svar:**
+$$
+y = -2x + 12
+$$
 
-Lutingen av $P_1P_2$ är
-$$k=\frac{y_2-y_1}{x_2-x_1}.$$
+---
 
-_Denna formel finns i formelblad._
+#### 4. Alternativ metod (punkt–riktningsform)
 
-Anta att en punkt i linjen är $P$ med koordinater $(x,y)$. Vi använder ovanstående formel till $P$.
-Lutingen av $P_1P$ är
-$$k=\frac{y-y_1}{x-x_1}.$$
+Lutningen ges av
+$$
+k = \frac{y_2 - y_1}{x_2 - x_1}
+$$
 
-**Lutningen av** $P_1P$ **måste vara samma med lutningen av** $P_1P_2$, dvs
+Anta att en godtycklig punkt på linjen är $(x, y)$.
 
-$$\frac{y-y_1}{x-x_1}=\frac{y_2-y_1}{x_2-x_1}.$$
+Då är lutningen mellan $(x_1, y_1)$ och $(x, y)$:
+$$
+k = \frac{y - y_1}{x - x_1}
+$$
 
-Multiplicera båda sidor med $x-x_1$. Vi får
+Eftersom lutningen är samma överallt på linjen gäller:
+$$
+\frac{y - y_1}{x - x_1} = \frac{y_2 - y_1}{x_2 - x_1}
+$$
 
-$$y-y_1=\frac{y_2-y_1}{x_2-x_1}(x-x_1).$$
+Multiplicera med $x - x_1$:
+$$
+y - y_1 = \frac{y_2 - y_1}{x_2 - x_1}(x - x_1)
+$$
 
-Vi kan skriva om det till $$y-y_1=k(x-x_1).$$
+Detta kan skrivas som
+$$
+y - y_1 = k(x - x_1)
+$$
 
-**Exempel 1.** En linje går genom punkterna $(2, 8)$ och $(5, 2)$. Hitta linjens ekvation.
+---
 
+**Exempel 2.** En linje går genom punkterna $(2, 8)$ och $(5, 2)$.
 
-**Lösning.** (_Metod 2._)
-_Steg 1._ Vi tar $P_1$ som $(2, 8)$ och $P_2$ som $(5, 2)$. Linjens lutning
-$$k=\frac{y_2-y_1}{x_2-x_1}=\frac{2-8}{5-2}=-2.$$
+**Lösning (metod 2).**
 
+_Steg 1._  
+$$
+k = \frac{2 - 8}{5 - 2} = -2
+$$
 
-_Steg 2._  Lutingen av $P_1P$ är
-$$k=\frac{y-8}{x-2}.$$
+_Steg 2._  
+$$
+\frac{y - 8}{x - 2} = -2
+$$
 
-Lutningen av $P_1P$ måste vara samma med lutningen av $P_1P_2$. Vi får
-$$ \frac{y-8}{x-2}=-2.$$
-Multiplicera båda sidor med $x-2$. Vi får
-$$ y-8=-2(x-2).$$
-Vi kan förenkla ekvationen, dvs $ y-8=-2x+4$ eller $y=-2x+12$.
+Multiplicera:
+$$
+y - 8 = -2(x - 2)
+$$
 
-**Svar.** Linjens ekvation är
-$$y=-2x+12.$$
+Förenkla:
+$$
+y - 8 = -2x + 4
+$$
 
+$$
+y = -2x + 12
+$$
+
+**Svar:**
+$$
+y = -2x + 12
+$$

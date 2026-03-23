@@ -32,12 +32,13 @@ markdown_extensions:
   - admonition
   - footnotes
   - tables
+  - attr_list      # <--- 建议加上这个，这样你可以写 { width="70%" } 控制图片
   - md_in_html
   
 
 extra_javascript:
   - javascripts/mathjax.js
-  - https://cdn.jsdelivr.net/npm/mathjax@4/tex-mml-chtml.js
+  - https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js
 
 extra_css:
   - stylesheets/extra.css

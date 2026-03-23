@@ -105,14 +105,17 @@ Jag är matematiklärare baserad i Sverige, med en doktorsexamen i matematik och
 
 ### [Undervisningsblogg](https://wanminliu.wordpress.com/category/teaching/)
 
-<a href="https://www.mathsisfun.com/">Math Is Fun - Maths Resources</a>
+
+<a href="https://www.mathsisfun.com/">
+    <img src="https://www.mathsisfun.com/images/style/logo.svg" alt="Math is fun Logo" style="width:50px;height:50px;">
+    <span>Math Is Fun - Maths Resources</span>
+</a>
 
 <br/><br/>
 
 <img src="https://wanminliu.github.io//pic/karrtorpsgymnasium.jpg" alt="KTH" id="width:100%;height:auto;">
 
-<br/><br/>
-<p>Last update on {{ site.time | date_to_long_string }}.</p>
+
 
 <script async src="https://www.googletagmanager.com/gtag/js?id=G-6X136VZ9Z5"></script>
 <script>
