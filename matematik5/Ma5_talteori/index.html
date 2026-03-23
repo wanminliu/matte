@@ -1,0 +1,1224 @@
+
+<!doctype html>
+<html lang="sv" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      
+      
+        <meta name="author" content="Wanmin Liu">
+      
+      
+        <link rel="canonical" href="https://wanminliu.github.io/matte/matematik5/Ma5_talteori/">
+      
+      
+      
+      
+        
+      
+      
+      <link rel="icon" href="../../assets/images/favicon.png">
+      <meta name="generator" content="mkdocs-1.6.1, mkdocs-material-9.7.6">
+    
+    
+      
+        <title>Ma5 talteori - Math is Fun!</title>
+      
+    
+    
+      <link rel="stylesheet" href="../../assets/stylesheets/main.484c7ddc.min.css">
+      
+        
+        <link rel="stylesheet" href="../../assets/stylesheets/palette.ab4e12ef.min.css">
+      
+      
+
+
+    
+    
+      
+    
+    
+      
+        
+        
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,700,700i%7CRoboto+Mono:400,400i,700,700i&display=fallback">
+        <style>:root{--md-text-font:"Roboto";--md-code-font:"Roboto Mono"}</style>
+      
+    
+    
+      <link rel="stylesheet" href="../../stylesheets/extra.css">
+    
+    <script>__md_scope=new URL("../..",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    
+      
+  
+
+
+  
+  
+
+<script id="__analytics">function __md_analytics(){function e(){dataLayer.push(arguments)}window.dataLayer=window.dataLayer||[],e("js",new Date),e("config","G-BKHMZBJJZ1"),document.addEventListener("DOMContentLoaded",(function(){document.forms.search&&document.forms.search.query.addEventListener("blur",(function(){this.value&&e("event","search",{search_term:this.value})}));document$.subscribe((function(){var t=document.forms.feedback;if(void 0!==t)for(var a of t.querySelectorAll("[type=submit]"))a.addEventListener("click",(function(a){a.preventDefault();var n=document.location.pathname,d=this.getAttribute("data-md-value");e("event","feedback",{page:n,data:d}),t.firstElementChild.disabled=!0;var r=t.querySelector(".md-feedback__note [data-md-value='"+d+"']");r&&(r.hidden=!1)})),t.hidden=!1})),location$.subscribe((function(t){e("config","G-BKHMZBJJZ1",{page_path:t.pathname})}))}));var t=document.createElement("script");t.async=!0,t.src="https://www.googletagmanager.com/gtag/js?id=G-BKHMZBJJZ1",document.getElementById("__analytics").insertAdjacentElement("afterEnd",t)}</script>
+  
+    <script>"undefined"!=typeof __md_analytics&&__md_analytics()</script>
+  
+
+    
+    
+  </head>
+  
+  
+    
+    
+      
+    
+    
+    
+    
+    <body dir="ltr" data-md-color-scheme="default" data-md-color-primary="teal" data-md-color-accent="teal">
+  
+    
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" for="__drawer"></label>
+    <div data-md-component="skip">
+      
+        
+        <a href="#talteori-ma5" class="md-skip">
+          Gå till innehållet
+        </a>
+      
+    </div>
+    <div data-md-component="announce">
+      
+    </div>
+    
+    
+      
+
+<header class="md-header" data-md-component="header">
+  <nav class="md-header__inner md-grid" aria-label="Sidhuvud">
+    <a href="../.." title="Math is Fun!" class="md-header__button md-logo" aria-label="Math is Fun!" data-md-component="logo">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54"/></svg>
+
+    </a>
+    <label class="md-header__button md-icon" for="__drawer">
+      
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 6h18v2H3zm0 5h18v2H3zm0 5h18v2H3z"/></svg>
+    </label>
+    <div class="md-header__title" data-md-component="header-title">
+      <div class="md-header__ellipsis">
+        <div class="md-header__topic">
+          <span class="md-ellipsis">
+            Math is Fun!
+          </span>
+        </div>
+        <div class="md-header__topic" data-md-component="header-topic">
+          <span class="md-ellipsis">
+            
+              Ma5 talteori
+            
+          </span>
+        </div>
+      </div>
+    </div>
+    
+      
+        <form class="md-header__option" data-md-component="palette">
+  
+    
+    
+    
+    <input class="md-option" data-md-color-media="" data-md-color-scheme="default" data-md-color-primary="teal" data-md-color-accent="teal"  aria-hidden="true"  type="radio" name="__palette" id="__palette_0">
+    
+  
+</form>
+      
+    
+    
+      <script>var palette=__md_get("__palette");if(palette&&palette.color){if("(prefers-color-scheme)"===palette.color.media){var media=matchMedia("(prefers-color-scheme: light)"),input=document.querySelector(media.matches?"[data-md-color-media='(prefers-color-scheme: light)']":"[data-md-color-media='(prefers-color-scheme: dark)']");palette.color.media=input.getAttribute("data-md-color-media"),palette.color.scheme=input.getAttribute("data-md-color-scheme"),palette.color.primary=input.getAttribute("data-md-color-primary"),palette.color.accent=input.getAttribute("data-md-color-accent")}for(var[key,value]of Object.entries(palette.color))document.body.setAttribute("data-md-color-"+key,value)}</script>
+    
+    
+    
+      
+      
+        <label class="md-header__button md-icon" for="__search">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+        </label>
+        <div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="__search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" aria-label="Sök" placeholder="Sök" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="search-query" required>
+      <label class="md-search__icon md-icon" for="__search">
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11z"/></svg>
+      </label>
+      <nav class="md-search__options" aria-label="Sök">
+        
+        <button type="reset" class="md-search__icon md-icon" title="Rensa" aria-label="Rensa" tabindex="-1">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"/></svg>
+        </button>
+      </nav>
+      
+        <div class="md-search__suggest" data-md-component="search-suggest"></div>
+      
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" tabindex="0" data-md-scrollfix>
+        <div class="md-search-result" data-md-component="search-result">
+          <div class="md-search-result__meta">
+            Initialiserar sök
+          </div>
+          <ol class="md-search-result__list" role="presentation"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+      
+    
+    
+  </nav>
+  
+</header>
+    
+    <div class="md-container" data-md-component="container">
+      
+      
+        
+          
+            
+<nav class="md-tabs" aria-label="Flikar" data-md-component="tabs">
+  <div class="md-grid">
+    <ul class="md-tabs__list">
+      
+        
+  
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="../.." class="md-tabs__link">
+        
+  
+  
+    
+  
+  Hem
+
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+  
+  
+    
+    
+      <li class="md-tabs__item">
+        <a href="../../matematik1/intro/" class="md-tabs__link">
+          
+  
+  
+  Matematik 1
+
+        </a>
+      </li>
+    
+  
+
+      
+        
+  
+  
+  
+  
+    
+    
+      <li class="md-tabs__item">
+        <a href="../../matematik2/funktioner/" class="md-tabs__link">
+          
+  
+  
+  Matematik 2
+
+        </a>
+      </li>
+    
+  
+
+      
+        
+  
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="../../geogebra/" class="md-tabs__link">
+        
+  
+  
+    
+  
+  Interaktiva verktyg (GeoGebra)
+
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="../../about/" class="md-tabs__link">
+        
+  
+  
+    
+  
+  Om kursen
+
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="https://wanminliu.wordpress.com/" class="md-tabs__link">
+        
+  
+  
+    
+  
+  📝 Läs min blogg
+
+      </a>
+    </li>
+  
+
+      
+    </ul>
+  </div>
+</nav>
+          
+        
+      
+      <main class="md-main" data-md-component="main">
+        <div class="md-main__inner md-grid">
+          
+            
+              
+              <div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+
+  
+
+
+<nav class="md-nav md-nav--primary md-nav--lifted" aria-label="Navigation" data-md-level="0">
+  <label class="md-nav__title" for="__drawer">
+    <a href="../.." title="Math is Fun!" class="md-nav__button md-logo" aria-label="Math is Fun!" data-md-component="logo">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54"/></svg>
+
+    </a>
+    Math is Fun!
+  </label>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../.." class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Hem
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+      
+      
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_2" >
+        
+          
+          <label class="md-nav__link" for="__nav_2" id="__nav_2_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Matematik 1
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_2_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_2">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Matematik 1
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../matematik1/intro/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Introduktion
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../matematik1/algebra/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Algebra
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../matematik1/geometri/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Geometri
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+      
+      
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_3" >
+        
+          
+          <label class="md-nav__link" for="__nav_3" id="__nav_3_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Matematik 2
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_3_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_3">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Matematik 2
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../matematik2/funktioner/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Funktionslära
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../matematik2/statistik/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Statistik
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../geogebra/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Interaktiva verktyg (GeoGebra)
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../about/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Om kursen
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="https://wanminliu.wordpress.com/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    📝 Läs min blogg
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+              
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="sidebar" data-md-type="toc" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+<nav class="md-nav md-nav--secondary" aria-label="Innehållsförteckning">
+  
+  
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Innehållsförteckning
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#talteori-ma5" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Talteori, Ma5
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Talteori, Ma5">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#decimala-talsystemet-basen-10" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Decimala talsystemet (basen 10)
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#binara-talsystemet-basen-2" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Binära talsystemet (basen 2)
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#kvot-och-rest-for-heltal" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Kvot och rest för heltal
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#talsystem-med-andra-talbaser" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Talsystem med andra talbaser
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Talsystem med andra talbaser">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#60-baserat-system-basen-60" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        60-baserat system (basen 60)
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#det-oktala-talsystemet-basen-8" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Det oktala talsystemet (basen 8)
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#det-hexadecimala-talsystemet-basen-16" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Det hexadecimala talsystemet (basen 16)
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#primalitet-ar-en-egenskap-hos-heltalet-sjalvt" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Primalitet är en egenskap hos heltalet självt.
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+          
+          
+            <div class="md-content" data-md-component="content">
+              
+              <article class="md-content__inner md-typeset">
+                
+                  
+
+
+
+  <h1>Ma5 talteori</h1>
+
+<h2 id="talteori-ma5">Talteori, Ma5</h2>
+<p>Wanmin Liu</p>
+<p>20251117, Rum 2009.</p>
+<hr />
+<p>Planering.</p>
+<p>Pass 1. 14.35 - 15.35.</p>
+<ul>
+<li>Förkunskaper.</li>
+<li>Faktorisering av heltal.</li>
+<li>Decimalsystemet (basen 10).</li>
+<li>Binära talsystemet (basen 2).</li>
+<li>Från binär till decimal form.</li>
+<li>Från decimal till binär form.</li>
+<li>Kvot och rest för heltal</li>
+<li>Uppgifter i boken.</li>
+</ul>
+<p>Pass 2. 15.55 - 17.00</p>
+<ul>
+<li>Representation av tal i olika talbaser.</li>
+<li>Det oktala talsystemet (basen 8).</li>
+<li>Det hexadecimala talsystemet (basen 16).</li>
+<li>Primalitet är en egenskap hos heltalet självt.</li>
+<li>Uppgifter i boken.</li>
+</ul>
+<hr />
+<h3 id="decimala-talsystemet-basen-10">Decimala talsystemet (basen 10)</h3>
+<p>Det decimala talsystemet är ett <strong>positionssystem</strong> med talet <strong>tio</strong> som bas, viket innebär två viktiga saker:  </p>
+<ul>
+<li>Varje tal kan skrivas med hjälp av de tio symboler (siffrorna), dvs <span class="arithmatex">\(0,1,2,3,4,5,6,7,8,9\)</span>.</li>
+<li>Varje siffra i ett tal representerar en tiopotens, vars storlek beror på siffrans position i talet.</li>
+</ul>
+<p><strong>Exempel 1.</strong></p>
+<div class="arithmatex">\[
+\begin{align}
+1984 &amp;= 1\cdot 10^3+9\cdot 10^2+8\cdot 10^1+4\cdot 10^0,\\
+3,14 &amp;= 3\cdot 10^0+1\cdot 10^{-1}+4\cdot 10^{-2},\\
+-67 &amp;=  - \Big(67\Big)=-\Big(6\cdot 10^{1}+7\cdot 10^{0}\Big),\\
+-2,7 &amp;= - \Big(2,7\Big)=-\Big(2\cdot 10^{0}+7\cdot 10^{-1}\Big).
+\end{align}
+\]</div>
+<p>De tal som skrivs i formen till högerledet kallas i <strong>utvecklad form</strong>.</p>
+<p>Om vi ​​vill betona det i talet med basen tio, kan vi skriva ett subskript med tio, till exempel <span class="arithmatex">\(1984_{\mathrm{tio}}\)</span>.</p>
+<h3 id="binara-talsystemet-basen-2">Binära talsystemet (basen 2)</h3>
+<p>Det binära talsystemet är ett <strong>positionssystem</strong> med talet <strong>två</strong> som bas, viket innebär två viktiga saker:  </p>
+<ul>
+<li>Varje tal kan skrivas med hjälp av de två symboler <span class="arithmatex">\(0,1\)</span>.</li>
+<li>Varje siffra i ett tal representerar en två-potens, vars storlek beror på siffrans position i talet.</li>
+</ul>
+<p><strong>Exempel 2.</strong> (<em>Från binär till decimal form.</em>) Omskriv <span class="arithmatex">\(100101_{\mathrm{två}}\)</span> till decimal form. 
+$$
+\begin{align}
+100101_{\mathrm{två}} &amp;= 1\cdot 2^5+0\cdot 2^4+0\cdot 2^3+1\cdot 2^2+0\cdot 2^1+1\cdot 2^0\
+ &amp;= 1\cdot 32+0\cdot 16+0\cdot 8+1\cdot 4+0\cdot 2+1\cdot 1\
+ &amp;= 37_{\mathrm{tio}}.
+\end{align}
+$$
+Så vi skriver ett tal från binär till decimal form.</p>
+<table>
+<thead>
+<tr>
+<th style="text-align: center;"><span class="arithmatex">\(\cdots\)</span></th>
+<th style="text-align: center;"><span class="arithmatex">\(2^7\)</span></th>
+<th style="text-align: center;"><span class="arithmatex">\(2^6\)</span></th>
+<th style="text-align: center;"><span class="arithmatex">\(2^5\)</span></th>
+<th style="text-align: center;"><span class="arithmatex">\(2^4\)</span></th>
+<th style="text-align: center;"><span class="arithmatex">\(2^3\)</span></th>
+<th style="text-align: center;"><span class="arithmatex">\(2^2\)</span></th>
+<th style="text-align: center;"><span class="arithmatex">\(2^1\)</span></th>
+<th style="text-align: center;"><span class="arithmatex">\(2^0\)</span></th>
+<th style="text-align: center;"><span class="arithmatex">\(2^{-1}\)</span></th>
+<th style="text-align: center;"><span class="arithmatex">\(2^{-2}\)</span></th>
+<th style="text-align: center;"><span class="arithmatex">\(\cdots\)</span></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align: center;"><span class="arithmatex">\(\cdots\)</span></td>
+<td style="text-align: center;"><span class="arithmatex">\(128\)</span></td>
+<td style="text-align: center;"><span class="arithmatex">\(64\)</span></td>
+<td style="text-align: center;"><span class="arithmatex">\(32\)</span></td>
+<td style="text-align: center;"><span class="arithmatex">\(16\)</span></td>
+<td style="text-align: center;"><span class="arithmatex">\(8\)</span></td>
+<td style="text-align: center;"><span class="arithmatex">\(4\)</span></td>
+<td style="text-align: center;"><span class="arithmatex">\(2\)</span></td>
+<td style="text-align: center;"><span class="arithmatex">\(1\)</span></td>
+<td style="text-align: center;"><span class="arithmatex">\(\frac{1}{2}\)</span></td>
+<td style="text-align: center;"><span class="arithmatex">\(\frac{1}{4}\)</span></td>
+<td style="text-align: center;"><span class="arithmatex">\(\cdots\)</span></td>
+</tr>
+</tbody>
+</table>
+<p><strong>Exempel 3.</strong> (<em>Från decimal till binär form.</em>) Omskriv <span class="arithmatex">\(67_{\mathrm{tio}}\)</span> till binär form. </p>
+<p><strong>Metod 1.</strong> Vi använder exponenttabellen för 2.
+$$
+\begin{align}
+67_{\mathrm{tio}} &amp;= 1\cdot 64+2+1\
+&amp;= 1\cdot 2^6+0\cdot 2^5+0\cdot 2^4+0\cdot 2^3+0\cdot 2^2+1\cdot 2^1+1\cdot 2^0\
+ &amp;= 1000011_{\mathrm{två}}.
+\end{align}
+$$</p>
+<h3 id="kvot-och-rest-for-heltal">Kvot och rest för heltal</h3>
+<p><strong>Definition.</strong> Om <span class="arithmatex">\(a\)</span> och <span class="arithmatex">\(b\)</span> är två <em>heltal</em> och <span class="arithmatex">\(b\neq 0\)</span>, så ger divisionen <span class="arithmatex">\(\frac{a}{b}\)</span> <strong>kvoten</strong> <span class="arithmatex">\(k\)</span> och <strong>resten</strong> <span class="arithmatex">\(r\)</span>, där <em>heltalen</em> <span class="arithmatex">\(k\)</span> och <span class="arithmatex">\(r\)</span> uppfyller villkoret
+$<span class="arithmatex">\(a=k\cdot b +r.\)</span>$
+Vi skriver att divisionen <span class="arithmatex">\(a/b\)</span> ger kvoten <span class="arithmatex">\(k\)</span> och resten <span class="arithmatex">\(r\)</span>.</p>
+<ul>
+<li>Om <span class="arithmatex">\(r\)</span> även uppfyller villkoret <span class="arithmatex">\(0\leq r&lt;b\)</span>, så kallas <span class="arithmatex">\(r\)</span> för den principala resten.  </li>
+<li>Om <span class="arithmatex">\(r=0\)</span>, säger vi att <span class="arithmatex">\(a\)</span> är <strong>delbart</strong> med <span class="arithmatex">\(b\)</span>.</li>
+</ul>
+<p><strong>Exempel 3.</strong> (<em>Från decimal till binär form.</em>) Omskriv <span class="arithmatex">\(67_{\mathrm{tio}}\)</span> till binär form. </p>
+<p><strong>Metod 2.</strong> Successivt division med basen.</p>
+<p>Vi skulle kunna tänka om hur vi kan hitta varje siffra i talet <span class="arithmatex">\(1984_{\mathrm{tio}}\)</span> i basen 10.</p>
+<p>Dividera <span class="arithmatex">\(1984_{\mathrm{tio}}\)</span> successivt med <span class="arithmatex">\(10\)</span> tills <strong>kvoten</strong> är <span class="arithmatex">\(\mathbf{0}\)</span>:</p>
+<p><span class="arithmatex">\(1984/10\)</span> ger kvoten <span class="arithmatex">\(184\)</span> och resten <span class="arithmatex">\(4\)</span>.<br />
+<span class="arithmatex">\(198/10\)</span> ger kvoten <span class="arithmatex">\(19\)</span> och resten <span class="arithmatex">\(8\)</span>.<br />
+<span class="arithmatex">\(19/10\)</span> ger kvoten <span class="arithmatex">\(1\)</span> och resten <span class="arithmatex">\(9\)</span>.<br />
+<span class="arithmatex">\(1/10\)</span> ger kvoten <span class="arithmatex">\(\mathbf{0}\)</span> och resten <span class="arithmatex">\(1\)</span>.</p>
+<p>Läs från botten till toppen: <span class="arithmatex">\(1984_{\mathrm{tio}}\)</span>.</p>
+<p>Vi gör samma spel med bas 2.</p>
+<p><em>Steg 1:</em> Dividera <span class="arithmatex">\(67_{\mathrm{tio}}\)</span> successivt med <span class="arithmatex">\(2\)</span> tills <strong>kvoten</strong> är <span class="arithmatex">\(\mathbf{0}\)</span>:</p>
+<p><span class="arithmatex">\(67/2\)</span> ger kvoten <span class="arithmatex">\(33\)</span> och resten <span class="arithmatex">\(1\)</span>.<br />
+<span class="arithmatex">\(33/2\)</span> ger kvoten <span class="arithmatex">\(16\)</span> och resten <span class="arithmatex">\(1\)</span>.<br />
+<span class="arithmatex">\(16/2\)</span> ger kvoten <span class="arithmatex">\(8\)</span> och resten <span class="arithmatex">\(0\)</span>.<br />
+<span class="arithmatex">\(8/2\)</span> ger kvoten <span class="arithmatex">\(4\)</span> och resten <span class="arithmatex">\(0\)</span>.<br />
+<span class="arithmatex">\(4/2\)</span> ger kvoten <span class="arithmatex">\(2\)</span> och resten <span class="arithmatex">\(0\)</span>.<br />
+<span class="arithmatex">\(2/2\)</span> ger kvoten <span class="arithmatex">\(1\)</span> och resten <span class="arithmatex">\(0\)</span>.<br />
+<span class="arithmatex">\(1/2\)</span> ger kvoten <span class="arithmatex">\(\mathbf{0}\)</span> och resten <span class="arithmatex">\(1\)</span>.  </p>
+<p><em>Steg 2:</em> Läs från botten till toppen som <span class="arithmatex">\(1000011_{\mathrm{två}}\)</span>.</p>
+<p><strong>Exempel 4.</strong> (Uppgift 1114.) Dominoeffekten och geometrisk serier.</p>
+<ul>
+<li>Vad blir <span class="arithmatex">\(1+2+4+8+16\)</span>?  </li>
+<li>Kan vi tänka med hjälp av det binära talet? </li>
+</ul>
+<p>Ovanstående fråga översätts till frågan nedan.</p>
+<ul>
+<li>Vad blir <span class="arithmatex">\(1_{\mathrm{två}}+10_{\mathrm{två}}+100_{\mathrm{två}}+1000_{\mathrm{två}}+10000_{\mathrm{två}}\)</span>?</li>
+</ul>
+<p>Vi kan utföra uppställning i addition.
+Det blir <span class="arithmatex">\(11111_{\mathrm{två}}\)</span>.
+$$
+\begin{align}
+1_{\mathrm{två}}+1_{\mathrm{två}} &amp;= 10_{\mathrm{två}}.\
+11_{\mathrm{två}}+1_{\mathrm{två}}&amp;= 100_{\mathrm{två}}.\
+111_{\mathrm{två}}+1_{\mathrm{två}}&amp;= 1000_{\mathrm{två}}.\
+1111_{\mathrm{två}}+1_{\mathrm{två}}&amp;= 10000_{\mathrm{två}}.\
+11111_{\mathrm{två}}+1_{\mathrm{två}}&amp;= 100000_{\mathrm{två}}.
+\end{align}
+$$</p>
+<p>Vi skulle kunna skriva om
+$<span class="arithmatex">\(11111_{\mathrm{två}}=2^0+2^1+2^2+2^3+2^4, \text{ och } 100000_{\mathrm{två}}=2^5.\)</span>$
+Så får vi en formel
+$<span class="arithmatex">\(2^0+2^1+2^2+2^3+2^4=2^{4+1}-1.\)</span>$</p>
+<p>Vi kunde hitta en generell formel
+$<span class="arithmatex">\(2^0+2^1+2^2+\cdots +2^n=2^{n+1}-1.\)</span>$</p>
+<p>Vi är mer bekanta med detta dominoliknande talspel som använder decimalsystemet.
+$$
+\begin{align}
+99999+1 &amp;= 100000.\
+99999 &amp;= 100000-1.\
+9(10^0+10^1+10^2+10^3+10^4)&amp;= 10^5-1.\
+10^0+10^1+10^2+10^3+10^4&amp;= \frac{10^5-1}{10-1}.
+\end{align}
+$$</p>
+<p>Med samma metod av dominoeffekten, för ett positivt heltal <span class="arithmatex">\(b\)</span>, har vi 
+$<span class="arithmatex">\(b^0+b^1+b^2+\cdots+b^n = \frac{b^{n+1}-1}{b-1}.\)</span>$</p>
+<hr />
+<p><strong>Uppgifter i boken.</strong>
+s 11. Nivå 1. Alla (b)-uppgifter. Nivå 2. 1108,1110, 1111 a), b). (Nivå 3. 1114).</p>
+<hr />
+<p>Pass 2. 15.55 - 17.00.</p>
+<h2 id="talsystem-med-andra-talbaser">Talsystem med andra talbaser</h2>
+<h3 id="60-baserat-system-basen-60">60-baserat system (basen 60)</h3>
+<p>Tidsenheter fungerar som ett lokalt exempel på ett 60-baserat system.</p>
+<p>Kärna:  </p>
+<ul>
+<li>60 sekunder → 1 minut. </li>
+<li>60 minuter → 1 timme. </li>
+</ul>
+<p>Exempel på beräkning i bas 60:    </p>
+<ul>
+<li>
+<p>45 min + 30 min → 75 min → 1 timme 15 min.<br />
+Processen: 75 = 1·60 + 15.</p>
+</li>
+<li>
+<p>(Addition med sekunder) 5:12:45 + 0:03:30. <br />
+Sekunder: 45 + 30 = 75 → 1·60 + 15. <br />
+Minuter: 12 + 3 + 1 = 16. <br />
+Resultat: 5:16:15. </p>
+</li>
+</ul>
+<h3 id="det-oktala-talsystemet-basen-8">Det oktala talsystemet (basen 8)</h3>
+<p>Det oktala talsystemet är ett <strong>positionssystem</strong> med basen 8, viket innebär två viktiga saker:  </p>
+<ul>
+<li>Varje tal kan skrivas med hjälp av de åtta symboler <span class="arithmatex">\(0,1,2,3,4,5,6,7\)</span>.</li>
+<li>Varje siffra i ett tal representerar en 8-potens, vars storlek beror på siffrans position i talet.</li>
+</ul>
+<p>Exempel</p>
+<div class="arithmatex">\[
+\begin{align}
+67_{\mathrm{åtta}} &amp;= 6\cdot 8^1+7\cdot 8^0\\
+ &amp;= 6\cdot 8+7\cdot 1\\
+ &amp;= 55_{\mathrm{tio}}.
+\end{align}
+\]</div>
+<h3 id="det-hexadecimala-talsystemet-basen-16">Det hexadecimala talsystemet (basen 16)</h3>
+<p>Det hexadecimala talsystemet är ett <strong>positionssystem</strong> med basen 16, viket innebär två viktiga saker:  </p>
+<ul>
+<li>Varje tal kan skrivas med hjälp av de 16 symboler <span class="arithmatex">\(0,1,2,3,4,5,6,7,8,9,A,B,C,D,E,F\)</span>.</li>
+<li>Varje siffra i ett tal representerar en 16-potens, vars storlek beror på siffrans position i talet.</li>
+</ul>
+<p>Vi vet att
+$<span class="arithmatex">\(A_{\mathrm{sexton}} = 10_{\mathrm{tio}},\quad B_{\mathrm{sexton}} = 11_{\mathrm{tio}}, \quad C_{\mathrm{sexton}} = 12_{\mathrm{tio}},\)</span>$
+$<span class="arithmatex">\(D_{\mathrm{sexton}} = 13_{\mathrm{tio}},\quad E_{\mathrm{sexton}} = 14_{\mathrm{tio}}, \quad F_{\mathrm{sexton}} = 15_{\mathrm{tio}}.\)</span>$</p>
+<p>Fördelen med att använda symbolen <span class="arithmatex">\(A\)</span> är att den bara tar en plats, och symbolen <span class="arithmatex">\(10\)</span> tar två platser.</p>
+<p>Exempel</p>
+<div class="arithmatex">\[
+\begin{align}
+67_{\mathrm{sexton}} &amp;= 6\cdot 16^1+7\cdot 16^0\\
+ &amp;= 6\cdot 16+7\cdot 1\\
+ &amp;= 103_{\mathrm{tio}}.
+\end{align}
+\]</div>
+<div class="arithmatex">\[
+\begin{align}
+67_{\mathrm{tio}} &amp;= 4\cdot 16+3\\
+ &amp;= 4\cdot 16^1+3\cdot 16^0\\
+ &amp;= 43_{\mathrm{sexton}}.
+\end{align}
+\]</div>
+<p>Vi kan använda följande tabeller för att ändra ett tal i basen 10 till basen 8 eller basen 16.</p>
+<table>
+<thead>
+<tr>
+<th style="text-align: center;"><span class="arithmatex">\(8^4\)</span></th>
+<th style="text-align: center;"><span class="arithmatex">\(8^3\)</span></th>
+<th style="text-align: center;"><span class="arithmatex">\(8^2\)</span></th>
+<th style="text-align: center;"><span class="arithmatex">\(8^1\)</span></th>
+<th style="text-align: center;"><span class="arithmatex">\(8^0\)</span></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align: center;"><span class="arithmatex">\(4096\)</span></td>
+<td style="text-align: center;"><span class="arithmatex">\(512\)</span></td>
+<td style="text-align: center;"><span class="arithmatex">\(64\)</span></td>
+<td style="text-align: center;"><span class="arithmatex">\(8\)</span></td>
+<td style="text-align: center;"><span class="arithmatex">\(1\)</span></td>
+</tr>
+</tbody>
+</table>
+<table>
+<thead>
+<tr>
+<th style="text-align: center;"><span class="arithmatex">\(16^4\)</span></th>
+<th style="text-align: center;"><span class="arithmatex">\(16^3\)</span></th>
+<th style="text-align: center;"><span class="arithmatex">\(16^2\)</span></th>
+<th style="text-align: center;"><span class="arithmatex">\(16^1\)</span></th>
+<th style="text-align: center;"><span class="arithmatex">\(16^0\)</span></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align: center;"><span class="arithmatex">\(65536\)</span></td>
+<td style="text-align: center;"><span class="arithmatex">\(4096\)</span></td>
+<td style="text-align: center;"><span class="arithmatex">\(256\)</span></td>
+<td style="text-align: center;"><span class="arithmatex">\(16\)</span></td>
+<td style="text-align: center;"><span class="arithmatex">\(1\)</span></td>
+</tr>
+</tbody>
+</table>
+<h3 id="primalitet-ar-en-egenskap-hos-heltalet-sjalvt">Primalitet är en egenskap hos heltalet självt.</h3>
+<p>Ett <strong>primtal</strong> är ett heltal större än 1 som bara kan delas exakt (utan rest) med 1 och sig självt.</p>
+<p>Exempel på primtal (i decimal form)
+$$2, 3, 5, 7, 11, 13, 17, 19, 23, 29, 31\cdots $$</p>
+<p>Tal som inte är primtal kallas <strong>sammansatta tal</strong> (de har fler än två delare).</p>
+<p>Exempel:
+$<span class="arithmatex">\(4 = 2\cdot 2, 6 = 2\cdot 3, 8 = 2\cdot 4, 9 = 3\cdot 3.\)</span>$</p>
+<p>Det minsta primtalet är 2, och det är också det enda jämna primtalet.</p>
+<p>Primalitet är en egenskap hos heltalet självt, och påverkas inte av vilket talsystem (bas) som används för att skriva talet.</p>
+<p><strong>Sats.</strong> Om ett tal <span class="arithmatex">\(p\)</span> är ett primtal i vårt vanliga talsystem (bas 10), så är det också primtal i alla andra talsystem.</p>
+<p><strong>Bevis.</strong> Anta motsatsen: att <span class="arithmatex">\(p\)</span> inte är primtal i något annat talsystem med bas <span class="arithmatex">\(b\)</span>. Då kan man skriva 
+$<span class="arithmatex">\(p=u_{b}\cdot v_{b}\)</span>$ för heltal <span class="arithmatex">\(u_{b}\)</span> och <span class="arithmatex">\(v_{b}\)</span> med 
+$<span class="arithmatex">\(1&lt;u_{b}&lt;p \text{ och } 1&lt;v_{b}&lt;p.\)</span>$
+Vi skulle kunna skriva om <span class="arithmatex">\(u_p\)</span> och <span class="arithmatex">\(v_p\)</span> i basen 10-systemet, och resultaten är fortfarande heltal, betecknat <span class="arithmatex">\(u\)</span> respektive <span class="arithmatex">\(v\)</span>. Dvs $<span class="arithmatex">\(p=u\cdot v, \quad \text{och }1&lt;u&lt;p, \ 1&lt;v&lt;p.\)</span>$
+Alltså skulle <span class="arithmatex">\(p\)</span> inte vara primtal heller i bas 10. Det blir en motsägelse.</p>
+<hr />
+<p><strong>Uppgifter i boken.</strong>
+s 11. Nivå 1. Alla (b)-uppgifter. Nivå 2. 1108,1110, 1111 a), b). (Nivå 3. 1114).</p>
+<hr />
+
+
+
+
+
+
+
+
+
+  
+
+
+
+
+                
+              </article>
+            </div>
+          
+          
+<script>var target=document.getElementById(location.hash.slice(1));target&&target.name&&(target.checked=target.name.startsWith("__tabbed_"))</script>
+        </div>
+        
+      </main>
+      
+        <footer class="md-footer">
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-copyright">
+  
+  
+    Made with
+    <a href="https://squidfunk.github.io/mkdocs-material/" target="_blank" rel="noopener">
+      Material for MkDocs
+    </a>
+  
+</div>
+      
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    <div class="md-dialog" data-md-component="dialog">
+      <div class="md-dialog__inner md-typeset"></div>
+    </div>
+    
+    
+    
+      
+      
+      <script id="__config" type="application/json">{"annotate": null, "base": "../..", "features": ["navigation.tabs", "navigation.sections", "search.suggest", "search.highlight"], "search": "../../assets/javascripts/workers/search.2c215733.min.js", "tags": null, "translations": {"clipboard.copied": "Kopierat till urklipp", "clipboard.copy": "Kopiera till urklipp", "search.result.more.one": "1 till p\u00e5 denna sida", "search.result.more.other": "# till p\u00e5 denna sida", "search.result.none": "Inga s\u00f6kresultat", "search.result.one": "1 s\u00f6kresultat", "search.result.other": "# s\u00f6kresultat", "search.result.placeholder": "Skriv s\u00f6kord", "search.result.term.missing": "Saknas", "select.version": "V\u00e4lj version"}, "version": null}</script>
+    
+    
+      <script src="../../assets/javascripts/bundle.79ae519e.min.js"></script>
+      
+        <script src="../../javascripts/mathjax.js"></script>
+      
+        <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+      
+    
+  </body>
+</html>
